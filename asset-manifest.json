@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/xanchinapp/static/css/main.e301a403.css",
+    "main.js": "/xanchinapp/static/js/main.f243e0ac.js",
+    "static/js/787.bbd2ef7a.chunk.js": "/xanchinapp/static/js/787.bbd2ef7a.chunk.js",
+    "static/media/Spin.svg": "/xanchinapp/static/media/Spin.c64d0a3cca68917a50b106e0d90603cf.svg",
+    "static/media/box_images (10).png": "/xanchinapp/static/media/box_images (10).ed6e441ca1d3bd81a84a.png",
+    "static/media/box_images (1).png": "/xanchinapp/static/media/box_images (1).b2240dfe7becf15923e1.png",
+    "static/media/box_images (7).png": "/xanchinapp/static/media/box_images (7).97026cf962872d285cad.png",
+    "static/media/box_images (2).png": "/xanchinapp/static/media/box_images (2).b77629ad9dabbf2a4437.png",
+    "static/media/box_images (3).png": "/xanchinapp/static/media/box_images (3).c86ef43de920d1a9d1cd.png",
+    "static/media/box_images (4).png": "/xanchinapp/static/media/box_images (4).12155317166ce5b05601.png",
+    "static/media/box_images (8).png": "/xanchinapp/static/media/box_images (8).2d23337ed0dba3211259.png",
+    "static/media/box_images (6).png": "/xanchinapp/static/media/box_images (6).dfa3379f75a6c472c1a0.png",
+    "static/media/box_images (5).png": "/xanchinapp/static/media/box_images (5).72ff974d413f1e088381.png",
+    "static/media/box_images (9).png": "/xanchinapp/static/media/box_images (9).513fdadad5d0a8dc86e2.png",
+    "static/media/logo.svg": "/xanchinapp/static/media/logo.4563092a7bb113a54d1840afbd325f02.svg",
+    "static/media/world-line.svg": "/xanchinapp/static/media/world-line.5ddfad8f7bb13919b35a50a210df3097.svg",
+    "static/media/wallet-color.svg": "/xanchinapp/static/media/wallet-color.40f0e62f90ed71520b7391004b4ae99a.svg",
+    "static/media/close.svg": "/xanchinapp/static/media/close.023749e1a2888e243609873b8f127341.svg",
+    "static/media/logo-2.svg": "/xanchinapp/static/media/logo-2.580ae27401b5ac1bd882e7b20ddfe237.svg",
+    "static/media/arrow-right.svg": "/xanchinapp/static/media/arrow-right.0ef55bbc5946497167f6506c9c243f5e.svg",
+    "static/media/arrow-left.svg": "/xanchinapp/static/media/arrow-left.441c5ac30db3e8e56ce92a2620b09256.svg",
+    "index.html": "/xanchinapp/index.html",
+    "static/media/Link.svg": "/xanchinapp/static/media/Link.3e53409323aaa3c10ca809ac89039bc2.svg",
+    "static/media/bg.svg": "/xanchinapp/static/media/bg.c0ecfcf0ebcb1abf1003.svg",
+    "static/media/nav-btn.svg": "/xanchinapp/static/media/nav-btn.69b129aba63a2f2866b5.svg",
+    "main.e301a403.css.map": "/xanchinapp/static/css/main.e301a403.css.map",
+    "main.f243e0ac.js.map": "/xanchinapp/static/js/main.f243e0ac.js.map",
+    "787.bbd2ef7a.chunk.js.map": "/xanchinapp/static/js/787.bbd2ef7a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e301a403.css",
+    "static/js/main.f243e0ac.js"
+  ]
+}
