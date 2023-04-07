@@ -10,6 +10,10 @@ import HomePage from './pages/Home';
 import MyWallet from "./pages/MyWallet";
 import RestrictedArea from "./pages/RestrictedArea";
 import HowToPlay from "./pages/HowtoPlay";
+import Affilate from "./pages/Affilate";
+import ContactUs from "./pages/ContactUs";
+import FAQ from "./pages/FAQ";
+import BigSmall from "./pages/BigSmall";
 
 
 
@@ -26,6 +30,12 @@ function App() {
             <Route path="/my-wallet" element={<MyWallet />} />
             <Route path="/restricted-area" element={<RestrictedArea />} />
             <Route path="/how-to-play" element={<HowToPlay />} />
+            <Route path="/affilate" element={<Affilate />} />
+            <Route path="/contact-us" element={<ContactUs />} />
+            <Route path="/faq" element={<FAQ />} />
+            <Route path="/big-small" element={<BigSmall />} />
+            
+            
           </Route>
         </Routes>
       </BrowserRouter>

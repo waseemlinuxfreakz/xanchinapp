@@ -16,20 +16,38 @@
 } /*  (max-width: 1260px) */
 
 @media only screen and (max-width: 1200px) {
-        
+    .faq_container {
+        max-width: 665px;
+    }
 
 } /*  (max-width: 1100px) */
 
 @media only screen and (max-width: 1199px) {
+
+    .userBettingList {
+        margin-top: 30px;
+        height: auto;
+    }
+
+    .bettingList {
+        height: auto;
+        overflow: unset;
+    }
     
 } /* (max-width: 1199px) */
 
-@media only screen and (min-width: 768px) and (max-width: 991px) {
+@media only screen and (min-width: 992px) {
+    .MobileDipoWith {
+        display: none !important;
+    }
 
 } /*  (min-width: 768px) and (max-width: 991px) */
 
 @media only screen and (max-width: 991px) {
 
+    .deskDipoWith {
+        display: none !important;
+    }
 
     /* Nav Menu Css Start  */
 
@@ -124,6 +142,52 @@
         display: none;
     }
 
+    .affilate_content {
+        max-width: 415px;
+        margin: 0 auto;
+    }
+    
+    .affilate_qr {
+        margin-bottom: 13px;
+        display: flex;
+    }
+    
+    .the_qr {
+        flex-grow: 1;
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+    
+    .qr_bottom {
+        padding: 55px 25px;
+        width: 178px;
+    }
+
+    .affilate_qr .BlueBtn {
+        width: 100%;
+    }
+    
+    .the_qr>img {
+        max-width: 95px;
+    }
+
+    section.affilate_area {
+        padding: 45px 10px 35px 10px;
+    }
+
+    .contactUsContainer {
+        max-width: 500px;
+    }
+
+    .bismlDipoWith.MobileDipoWith {
+        text-align: center;
+        margin-bottom: 25px;
+    }
+    
+    .bismlDipoWith.MobileDipoWith> * {
+        margin: 0 10px;
+    }
+
 }/*and (max-width: 991px)*/
     
 @media only screen and (min-width: 426px) and (max-width: 767px) {
@@ -131,6 +195,49 @@
 } /* (min-width: 426px) and (max-width: 767px) */
       
 @media only screen and (max-width: 767px) {
+
+    .betTitle {
+        font-size: 27px;
+        line-height: 46px;
+        margin-bottom: 25px;
+    }
+    
+    .betUser {
+        margin-bottom: 24px;
+    }
+    
+    .betResult {
+        width: 400px;
+        height: 400px;
+    }
+    
+    .betrow.row {
+        margin-top: -159px;
+    }
+    
+    .faq_container {
+        max-width: 510px;
+    }
+
+    .contactBox {
+        padding: 25px 15px;
+    }
+    
+    .contactBox .BlueBtn {
+        width: 70px;
+    }
+
+    .contactUsContainer {
+        max-width: 320px;
+    }
+
+    .affilate_content {
+        max-width: 320px;
+    }
+
+    .affilate_qr h3 {
+        font-size: 17px;
+    }
     
     .FootermobileMenu {
         display: block;
@@ -144,9 +251,20 @@
         justify-content: center;
     }
 
+    .gameroundResult> img {
+        width: 46px;
+        display: inline-block;
+        margin: 0 5px;
+    }
+
 }/* and (max-width: 767px) */
        
 @media only screen and (max-width: 520px) {
+
+    
+    .faq_container {
+        max-width: 320px;
+    }
 
     .swapModal .modal-dialog {
         max-width: 310px;
@@ -228,6 +346,82 @@
         font-weight: 400;
         font-size: 21px;
         line-height: 36px;
+    }
+
+    .betResult {
+        width: 270px;
+        height: 270px;
+        padding-top: 46px;
+    }
+    
+    .betTitle {
+        font-size: 16.772px;
+        line-height: 28px;
+        border-radius: 5px;
+    }
+    
+    .gameCounter h2 {
+        font-family: 'Jaldi';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 33.897px;
+        line-height: 37px;
+        color: #FFFFFF;
+    }
+    
+    .gameCounter {
+        font-family: 'Jaldi';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 10.38598px;
+        line-height: 14px;
+        color: #7AA0E9;
+    }
+    
+    .betColBox .BlueBtn {
+        width: 100%;
+        font-size: 15.1777px;
+        line-height: 23px;
+    }
+    
+    .betUser {
+        font-size: 15.507px;
+        line-height: 19px;
+    }
+    
+    .betUser span.color-ornage {
+        font-size: 11.90435px;
+        line-height: 17px;
+    }
+    
+    .betCounters.inputCol input {
+        font-size: 14.5198px;
+        line-height: 22px;
+    }
+    
+    .betCounters.inputCol {
+        margin: 0 auto 20px auto;
+    }
+    
+    .betTitle:after {
+        border-radius: 5px;
+    }
+    
+    .betrow.row {
+        margin-top: -119px;
+    }
+    
+    .gameroundResult> img {
+        width: 34px;
+        margin: 0 3px;
+    }
+    
+    .gameRoundTop p {
+        margin-bottom: 3px;
+    }
+
+    .menuPageTitme {
+        display: none;
     }
 
 } /* (max-width: 520px) */
