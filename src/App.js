@@ -14,14 +14,15 @@ import Affilate from "./pages/Affilate";
 import ContactUs from "./pages/ContactUs";
 import FAQ from "./pages/FAQ";
 import BigSmall from "./pages/BigSmall";
-
+import GameCardBeat from "./pages/GameCardBeat";
+import Bankroll from "./pages/Bankroll";
+import PlayCard from "./pages/PlayCard";
+import CoinFlip from "./pages/CoinFlip";
 
 
 function App() {
   return (
     <div className="App">
-
-      
       <BrowserRouter>
         <Routes>
           <Route>
@@ -34,7 +35,10 @@ function App() {
             <Route path="/contact-us" element={<ContactUs />} />
             <Route path="/faq" element={<FAQ />} />
             <Route path="/big-small" element={<BigSmall />} />
-            
+            <Route path="/game-card" element={<GameCardBeat />} />
+            <Route path="/bankroll" element={<Bankroll />} />
+            <Route path="/play-card" element={<PlayCard />} />
+            <Route path="/coin-flip" element={<CoinFlip />} />
             
           </Route>
         </Routes>

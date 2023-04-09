@@ -3,14 +3,14 @@ import BetStart from './BetStart';
 import GameRoundStart from './GameRoundStart';
 import BigBet from './BigBet';
 import SmallBet from './SmallBet';
+import BeatRank from './BeatRank';
 
 import Colorcircle from '../../assets/img/dices/color-circle.svg';
-
 
 function BigSmallBet() {
     return ( 
         <div className="bigsmallBet">
-            <span className='beatRankg'>#560354</span>
+            <BeatRank/>
             <div className="betResult">
                 <div className="color_circle"><img src={Colorcircle} alt="Colorcircle" /></div>
                 <BetStart/>
