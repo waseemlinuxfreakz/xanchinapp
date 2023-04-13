@@ -629,7 +629,7 @@ span.hrLine {
 .RedBtn {
   display: inline-block;
   background: #FF4747;
-  border-radius: 8.00426px;
+  border-radius: 5px;
   font-family: 'Jaldi';
   font-style: normal;
   font-weight: 400;
@@ -788,7 +788,7 @@ img.closeModal {
 }
 
 .color-orange {
-  color: #FFA800;
+  color: #FFA800 !important;
 }
 
 .swap_amount span {
@@ -837,6 +837,10 @@ section.restricted_area {
 
 .color-blue {
   color: #0066FF;
+}
+
+a.color-blue {
+  text-decoration: none;
 }
 
 .affilate_area {
@@ -2048,7 +2052,10 @@ img.SingleCard {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-bottom: 13px;
+}
+
+.selectRange {
+  margin-top: 15px;
 }
 
 .play_amount>h3 {
@@ -2069,10 +2076,41 @@ img.SingleCard {
   font-style: normal;
   font-weight: 400;
   font-size: 11.9954px;
-  line-height: 20px;
+  line-height: 1;
   color: #7AA0E9;
-  padding: 3px 15px;
+  padding: 7px 15px;
   text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.theAmount input {
+  background: transparent;
+  border: 0;
+  outline: none;
+  box-shadow: none;
+  max-width: fit-content;
+  text-align: right;
+  font-family: 'Jaldi';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 11.9954px;
+  line-height: 18px;
+  color: #7AA0E9;
+  width: auto !important;
+  display: inline-block;
+  max-width: 90px;
+}
+
+.theAmount input::-webkit-outer-spin-button,
+.theAmount input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.theAmount input[type=number] {
+  -moz-appearance: textfield;
 }
 
 .play_amount .theAmount {
@@ -2153,10 +2191,6 @@ img.SingleCard {
   width: 50%;
   justify-content: center;
   text-align: center;
-}
-
-.startCard_area .BlueBtn.CashoutBtn {
-  display: none;
 }
 
 .cardDragImg>img,
@@ -2257,7 +2291,7 @@ img.CoinItem.inactiveCoin {
   overflow: hidden;
 }
 
-.coinFlipCircle> img {
+.coinFlipCircle>img {
   display: block;
   width: 100%;
   padding: 0;
@@ -2310,4 +2344,897 @@ img.CoinItem.inactiveCoin {
   line-height: 21px;
   color: #7591BC;
   margin-bottom: 30px;
+}
+
+.clasicdiceWraper {
+  padding: 100px 0;
+}
+
+section.clasicdice_area {
+  padding-top: 50px;
+}
+
+.clasicdice_area .container {
+  max-width: 1280px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 45px;
+  padding-right: 45px;
+}
+
+.classicDiscBox {
+  background: linear-gradient(180deg, #0E1D3A 0%, #0E1D3A 100%);
+  border: 1.00156px solid #3B5585;
+  border-radius: 10.0156px;
+  overflow: hidden;
+  margin-bottom: 22px;
+}
+
+.classic_disc {
+  padding: 18px 80px 35px 80px;
+}
+
+.numberList {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.NumberItem {
+  display: block;
+  text-align: center;
+  width: 9%;
+  margin: 3px;
+  border-radius: 5.34167px;
+  font-family: 'Jaldi';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13.3542px;
+  line-height: 23px;
+}
+
+.greenNumber {
+  color: #36EE33;
+  background: rgba(54, 238, 51, 0.2);
+}
+
+.redNumber {
+  background: rgba(255, 48, 48, 0.2);
+  color: #FF3030;
+}
+
+.winBox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 300px;
+  height: 122px;
+  margin: 0 auto;
+  position: relative;
+  z-index: 1;
+  margin-top: 15px;
+}
+
+.winBox:after {
+  position: absolute;
+  z-index: -1;
+  content: "";
+  left: 0;
+  top: 0;
+  width: 100%;
+  padding-bottom: 100%;
+  background: linear-gradient(180deg, #203660 -0.57%, rgba(19, 37, 71, 0) 39.18%, rgba(19, 37, 71, 0) 40.79%);
+  border-radius: 50%;
+  pointer-events: none;
+}
+
+.winTitle {
+  font-family: 'Jaldi';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 23.3698px;
+  line-height: 1;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #FFA800;
+}
+
+.winNumber {
+  font-family: 'Jaldi';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 33.3854px;
+  line-height: 1.5;
+  text-align: center;
+  color: #FFFFFF;
+  margin: 0;
+}
+
+.winRange.selectRange {
+  background: #0E1D3A;
+  border: 1.41574px solid #3B5585;
+  border-radius: 13.3542px;
+  padding: 30px;
+  margin-top: 0;
+}
+
+.PayOutRoll_box {
+  background: #132547;
+  border-top: 1px solid #3B5585;
+  padding: 15px 15px 20px;
+}
+
+.PayOutRoll {
+  max-width: 356px;
+  margin: 0 auto;
+}
+
+.PayOutRollItem p {
+  font-family: 'Jaldi';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16.6927px;
+  line-height: 28px;
+  color: #7AA0E9;
+  margin: 0;
+}
+
+.payOutInput {
+  display: flex;
+  align-items: center;
+  border: 0.554093px solid #6483BF;
+  border-radius: 5.76181px;
+  padding: 7px 15px;
+  justify-content: space-between;
+}
+
+.payOutInput input {
+  background: transparent;
+  border: 0;
+  outline: none;
+  box-shadow: none;
+  color: #fff;
+  max-width: 70%;
+}
+
+.payOutInput input::placeholder {
+  color: #fff;
+}
+
+.classicDiscBeat {
+  max-width: 535px;
+  margin: 0 auto;
+}
+
+.WinAmountBox.select_range_area {
+  padding: 7px 15px;
+  margin-bottom: 6px;
+}
+
+.BlueBtn.w-100 {
+  justify-content: center;
+  align-items: center;
+}
+
+.ClassList.bettingList {
+  max-height: 476px;
+}
+
+span.WinAmount {
+  font-family: 'Jaldi';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12.0077px;
+  line-height: 20px;
+  color: #FFA800;
+}
+
+.pokerRewardWraper {
+  padding-top: 50px;
+}
+
+.pokerRewardWraper .bigsmall_heade_right>* {
+  display: none;
+}
+
+.pokerRewardWraper .bigsmall_heade_right .affilate_btn {
+  display: block;
+}
+
+.poker_box {
+  background: linear-gradient(180deg, #0E1D3A 0%, #0E1D3A 100%);
+  border: 0.771943px solid #3B5585;
+  border-radius: 7.71943px;
+  padding: 0 37px 30px 37px;
+}
+
+.poker_title.beatRankg {
+  margin: 0 auto 34px auto;
+  width: auto;
+}
+
+.pokerCardItem {
+  position: relative;
+  z-index: 1;
+  padding-bottom: 149%;
+  background: #192948;
+  border-radius: 8.55246px;
+}
+
+section.poker_area .container {
+  max-width: 1090px;
+}
+
+.pokerCardItem img {
+  position: absolute;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  padding: 7px;
+}
+
+.poker_cards.row {
+  margin-bottom: 30px;
+}
+
+.poker_dimeBtn {
+  max-width: 432px;
+  margin: 0 auto;
+}
+
+.dimeBtn {
+  display: block;
+  width: 100%;
+  background: rgba(104, 150, 240, 0.3);
+  border: 0.370193px solid #566F9F;
+  border-radius: 3.70193px;
+  font-family: 'Jaldi';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12.8657px;
+  line-height: 1.5;
+  text-align: center;
+  color: #FFFFFF;
+  transition: .3s ease all;
+  padding: 6px 5px;
+  cursor: pointer;
+}
+
+.dimeBtn:hover {
+  color: #FFA800;
+  background: rgba(0, 102, 255, 0.25);
+}
+
+.poker_Spin_btns>* {
+  width: calc(50% - 10px);
+  justify-content: center;
+}
+
+.poker_Spin_btns.dualBtn {
+  max-width: 355px;
+  margin: 30px auto 0 auto;
+}
+
+.pokerReward {
+  background: #20345A;
+  border: 1px solid #3A5283;
+  border-radius: 10px;
+  overflow: hidden;
+  padding-bottom: 10px;
+}
+
+.pokerReward h2 {
+  font-family: 'Jaldi';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 24px;
+  color: #FFFFFF;
+  background: #132547;
+  border-radius: 0;
+  padding: 10px 15px;
+}
+
+ul.rewardList {
+  margin: 0;
+  padding: 0 15px;
+  list-style: none;
+}
+
+ul.rewardList li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: 'Jaldi';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  color: #FFFFFF;
+  padding: 9px 0;
+  border-bottom: 1px solid #40598A;
+}
+
+ul.rewardList li:last-child {
+  border: 0;
+}
+
+.dailySpin_box {
+  text-align: center;
+}
+
+.dailySpin h2 {
+  font-family: 'Jaldi';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 53.7818px;
+  line-height: 1.3;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.theSpin {
+  width: 473px;
+  margin: 0 auto;
+  max-width: 90%;
+}
+
+.theSpin:after {
+  content: "";
+  background: url(assets/img/SpinBg.png);
+  display: block;
+  left: 50%;
+  top: 42%;
+  width: 90vw;
+  height: 90vw;
+  max-height: 100vh;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  z-index: -1;
+  background-size: contain;
+  background-position: center;
+  max-width: 852px;
+}
+
+
+.theSpin img {
+  width: 100%;
+}
+
+button.BlueBtn.SpinBtn {
+  font-weight: 500;
+  font-size: 22.582px;
+  line-height: 27px;
+  width: 70%;
+  justify-content: center;
+  max-width: 227px;
+  padding: 13px;
+  margin-top: 20px;
+}
+
+.PageWraper.dailySpinWraper {
+  height: calc(100vh - 62px);
+  overflow: hidden;
+}
+
+section.dailySpin_area {
+  padding-top: 50px;
+  padding-bottom: 30px;
+}
+
+.dottedList {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 70px;
+}
+
+.dottedItem {
+  padding: 2px;
+  width: 25%;
+}
+
+.dottedItem>span {
+  width: 11.61px;
+  height: 11.61px;
+  background: #FFFFFF;
+  border: 0.81802px solid #364C76;
+  display: block;
+  border-radius: 50%;
+}
+
+.dottedItem.blackDotted>span {
+  background: #000;
+}
+
+.verticalDotList {
+  background: #1A2E53;
+  border: 1.95395px solid #0E1D3A;
+  border-radius: 13.0263px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 0;
+}
+
+.verticalDotList .dottedItem {
+  padding: 5px;
+  margin: 0 auto;
+  width: auto;
+}
+
+.verticalDotList .dottedItem span {
+  width: 38.43px;
+  height: 38.43px;
+}
+
+.gameCardItem.shakeDishCard {
+  background: #132547;
+  border-radius: 10px;
+  margin: 0;
+  height: 100%;
+  position: relative;
+  z-index: 1;
+  padding: 0 10px 10px 10px;
+}
+
+.ShakeDishCardRow.row>div {
+  margin-bottom: 12px;
+  flex-grow: 1;
+}
+
+.cardNumber {
+  background: #1A2E53;
+  /* margin: 0 12px; */
+  border-radius: 0px 0px 10px 10px;
+  font-family: 'Jaldi';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13.0263px;
+  line-height: 22px;
+  /* identical to box height */
+  text-align: center;
+  color: #6E91D6;
+  margin-bottom: 8px;
+}
+
+.gameCardItem.shakeDishCard>h3 {
+  font-family: 'Jaldi';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16.2829px;
+  line-height: 28px;
+  /* identical to box height */
+  text-align: center;
+  color: #FFFFFF;
+  margin-bottom: 7px;
+}
+
+ul.cardDotList {
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 77px;
+  margin: 0 auto;
+}
+
+ul.cardDotList>li {
+  width: 25%;
+  padding: 3px;
+  list-style: none;
+}
+
+.cardDott {
+  background: #FFFFFF;
+  border: 0.805444px solid #364C76;
+  display: block;
+  width: 11.75px;
+  height: 11.75px;
+  border-radius: 50%;
+  margin: 0 auto;
+}
+
+span.cardDott.BlackDot {
+  background: #000;
+}
+
+.lineOr {
+  width: 80%;
+  margin: 13px auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 1px;
+  border-bottom: 1px solid #4E6184;
+  max-width: 118px;
+}
+
+.lineOr span {
+  font-weight: 400;
+  font-size: 13.0263px;
+  line-height: 22px;
+  text-align: center;
+  color: #4E6184;
+  display: block;
+  background: #132547;
+  padding: 0 10px;
+}
+
+.cardDotted {
+  margin-bottom: 12px;
+  min-height: 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.gameCardItem.shakeDishCard .color-orange {
+  font-weight: 400;
+  font-size: 14.9803px;
+  line-height: 25px;
+  text-align: center;
+}
+
+.ShakeDishCardRow.gameCardList.row {
+  padding: 30px 0px 40px 0px;
+}
+
+.ShakeDishHistory .dottedList {
+  margin-left: auto;
+}
+
+.ShakeDishHistory table.table tr td:last-child {
+  padding-right: 0 !important;
+}
+
+.infoLink {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.carshBearList .bettingList {
+  height: 263px;
+  min-height: unset;
+}
+
+.carshBearList h2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.graphBox {
+  position: relative;
+  z-index: 1;
+  margin-top: 100px;
+}
+
+.graphBox>img {}
+
+img.grapgLine {
+  display: block;
+  width: 100%;
+}
+
+.game_Counter {
+  text-align: center;
+}
+
+.game_Counter h2 {
+  font-weight: 400;
+  font-size: 66.7746px;
+  line-height: 1;
+  text-align: center;
+  color: #FFFFFF;
+  margin: 0;
+}
+
+.game_Counter p {
+  margin: 0;
+  font-weight: 400;
+  font-size: 16.5198px;
+  line-height: 28px;
+  text-align: center;
+  color: #7AA0E9;
+}
+
+.graphBox .game_Counter {
+  position: absolute;
+  left: 50%;
+  top: 30px;
+  transform: translate(-50%);
+}
+
+.theAmount.theAmountx>span {
+  font-size: 12px;
+  line-height: 1;
+  flex-shrink: 0;
+  width: 50%;
+  text-align: left;
+}
+
+.crashBeatOnAmount .beatStartBottom .box2 {
+  width: 28.67px;
+  height: 28.67px;
+  font-weight: 400;
+  font-size: 11.9441px;
+  flex-shrink: 0;
+  color: #7AA0E9;
+}
+
+.crashBeatOnAmount .beatStartBottom>h3 {
+  margin-right: 10px;
+}
+
+.crashBeatOnAmount .beatStartBottom .inputCol input {
+  font-size: 11.9441px;
+  line-height: 20px;
+  max-width: 100%;
+}
+
+.CrashBeaBox .beatAmountRow.row {
+  align-items: center;
+}
+
+.crashBeatOnAmount .select_range_area {
+  padding: 21px 17px;
+}
+
+.CrashBeaTop {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+}
+
+.radioBox {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.radioBox input {
+  display: none;
+}
+
+.radioBox label {
+  font-size: 16.6042px;
+  line-height: 28px;
+  /* identical to box height */
+  color: #7AA0E9;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.radioCircle {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 16px;
+  height: 16px;
+  flex-shrink: 0;
+  margin-right: 10px;
+  border: 1px solid #7AA0E9;
+  border-radius: 50%;
+  transition: .3s ease all;
+}
+
+.radioCircle:after {
+  display: block;
+  content: "";
+  transition: .3s ease all;
+  width: 8px;
+  height: 8px;
+  background: #0066FF;
+  border-radius: 50%;
+  opacity: 0;
+  visibility: hidden;
+}
+
+.radioBox input:checked+label {
+  color: #fff;
+}
+
+.radioBox input:checked+label .radioCircle {
+  border-color: #fff;
+}
+
+.radioBox input:checked+label .radioCircle::after {
+  opacity: 1;
+  visibility: visible;
+}
+
+.crashBeatOn .play_amount.beatStartBottom {
+  padding: 0 !important;
+}
+
+.beatAmount {
+  background: #0E1D3A;
+  border-right: 1px solid #3B5585;
+  text-align: center;
+  padding: 18px 20px;
+}
+
+.crashBeatOnColor {
+  display: flex;
+  align-items: center;
+  background: #1A2B4D;
+  border: 1px solid #3B5585;
+  border-radius: 9.96254px;
+  overflow: hidden;
+}
+
+.beatAmount h3 {
+  font-weight: 400;
+  font-size: 15.2759px;
+  line-height: 26px;
+  /* identical to box height */
+  text-align: center;
+  color: #FFFFFF;
+  margin-bottom: 7px;
+}
+
+.beatAmount .inputCol input {
+  border: 1px solid #6483BF;
+  border-radius: 4.96808px;
+  font-weight: 400;
+  font-size: 11.9441px;
+  line-height: 20px;
+  text-align: center;
+  color: #7AA0E9;
+  background: transparent;
+  padding: 3px 13px;
+  max-width: 144px;
+  text-align: center;
+  appearance: none;
+}
+
+.beatColorBox.row {
+  margin: 0;
+  flex-grow: 1;
+}
+
+.color_box_col {
+  display: flex;
+  align-items: center;
+  background: #314B7D;
+  border: 1px solid #566F9F;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.color_box>span {
+  height: 11.44px;
+  width: 11.44px;
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 5px;
+  flex-shrink: 0;
+}
+
+.color_box {
+  font-size: 13.4591px;
+  margin-right: auto;
+}
+
+span.red_color {
+  background: #E03E3E;
+}
+
+.color_box_col span.color-orange {
+  font-size: 13.4591px;
+}
+
+.color_box>img {
+  margin-right: 5px;
+}
+
+span.red_green {
+  background: #36CB33;
+}
+
+img.rocket {
+  display: block;
+  width: 100%;
+}
+
+.CrashColorGame .graphBox {
+  margin-top: 0;
+  position: relative;
+}
+
+.CrashColorGame.bigsmallBet {
+  padding: 17px 0 0 0;
+  border-radius: 10px 10px 18px 18px;
+}
+
+.CrashColorGame .graphBox .game_Counter {
+  top: auto;
+  bottom: 20px;
+}
+
+.graphBox ul.beatColorLst.row {
+  position: absolute;
+  left: 0;
+  top: 40px;
+  right: 0;
+}
+
+
+
+h2 {}
+
+ul.beatColorLst {
+  list-style: none;
+  margin: 0;
+  padding: 0 20px;
+}
+
+li.colorCol {
+  padding: 5px 2.5px;
+}
+
+.colorBeatItem {
+  display: flex;
+  align-items: center;
+  border-radius: 5.97445px;
+  padding: 2px 10px;
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+.colorRed {
+  background: rgba(255, 48, 48, 0.2);
+  color: #FF3030;
+}
+
+.colorCircle {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  display: inline-block;
+  flex-shrink: 0;
+  margin-right: 7px;
+}
+
+.colorRed span.colorCircle {
+  background: #E03E3E;
+}
+
+.ColorYellow {
+  background: rgba(54, 238, 51, 0.2);
+}
+
+.ColorYellow span.colorCircle {
+  background: #36EE33;
+}
+
+.starColor {
+  background: rgba(255, 199, 0, 0.2);
+  color: #FFC700;
+}
+
+.colorBeatItem>img {
+  display: inline-block;
+  width: 10px;
+  margin-right: 7px;
+}
+
+.colorGreen {
+  background: rgba(255, 199, 0, 0.2);
+}
+
+.colorBlue {
+  background: rgba(39, 78, 156, 0.2);
+  color: #497EE9;
 }

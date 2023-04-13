@@ -45,7 +45,8 @@
 }
 
 @media only screen and (max-width: 1199px) {
-
+    
+    .pokerReward,
     .startCard_area {
         margin-top: 30px;
     }
@@ -402,12 +403,138 @@
         height: auto;
     }
 
+    .classic_disc {
+        padding: 18px 30px 35px 30px;
+    }
+    
+    .classicDiscBeat {
+        padding: 0 20px;
+    }
+
+    .clasicdice_area .container {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .theSpin:after {
+        width: 100vw;
+        height: 100vw;
+    }
+
+    .dailySpin h2 {
+        font-size: 36px;
+    }
+
+    .ShakeDishCardRow.row>div {
+        flex-grow: 1;
+    }
+    
+    .gameStartCardBox {
+    }
+    
+    .verticalDotList {
+        flex-direction: unset;
+        padding: 8px 10px;
+    }
+    
+    .verticalDotList .dottedItem span {
+        width: 13.61px;
+        height: 13.61px;
+    }
+    
+    .gameCounter h2 {
+        font-size: 23px;
+    }
+    
+    .gameStartWill {
+        margin-bottom: 10px;
+    }
+
+    .game_Counter h2 {
+        font-size: 46px;
+    }
+
+    .game_Counter p {
+        font-size: 13px;
+    }
+
+    .beatAmount {
+        padding: 18px 10px;
+    }
+
+    .crashBeatOnColor {
+        display: block;
+    }
+    
+    .CrashBeaBox .beatAmountRow.row {
+        flex-direction: column;
+    }
+    
+    .CrashBeaBox .beatAmountRow.row> div {
+        width: 100%;
+        text-align: center;
+    }
+    
+    .CrashBeaBox .beatAmountRow.row> div a.BlueBtn {
+        margin-top: 15px;
+    }
+    
+    .beatColorBox.row {
+        padding: 13px 5px;
+    }
+    
+    .beatAmount {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 20px 25px;
+    }
+    
+    .beatAmount .inputCol {
+        margin: 0;
+    }
+    
+    .beatAmount h3 {
+        margin: 0;
+    }
+    
+    li.colorCol.col-2 {
+        width: 25%;
+    }
+    
+    .graphBox ul.beatColorLst.row {
+        top: 0;
+    }
+
+    .graphBox {
+        margin-top: 50px;
+    }
+
+    .crashBeatOn.crashBeatOnAmount {
+        margin-bottom: 15px;
+    }
+
+    .theAmount.theAmountx>span {
+        width: 20%;
+    }
+
 }
 
 /* and (max-width: 767px) */
 
 @media only screen and (max-width: 520px) {
 
+    .graphBox {
+        margin-top: 30px;
+    }
+
+    .dailySpin h2 {
+        font-size: 28px;
+    }
+
+    .classic_disc {
+        padding: 18px 20px 35px 20px;
+    }
 
     .faq_container {
         max-width: 320px;
@@ -646,7 +773,169 @@
         font-size: 28px;
         line-height: 1.5;
     }
+   
+    .NumberItem {
+        font-size: 10px;
+        line-height: 1.5;
+        border-radius: 3px;
+    }
     
+    .winBox {
+        width: 75%;
+        height: 82px;
+        max-width: 280px;
+    }
+    
+    .winTitle {
+        font-size: 17px;
+    }
+    
+    .winNumber {
+        font-size: 23px;
+    }
+    
+    .winRange.selectRange {
+        border-radius: 10px;
+        padding: 22px 22px;
+        margin-top: 0;
+    }
+    
+    .classicDiscBeat .play_amount>h3 {
+        font-size: 12px;
+        line-height: 1.2;
+    }
+    
+    .classicDiscBeat {
+        padding: 0;
+    }
+    
+    .WinAmountBox.select_range_area {
+        padding: 11px 15px;
+        border-radius: 8px;
+    }
+
+    .poker_box {
+        padding: 0 15px 30px 15px;
+    }
+    
+    .poker_title.beatRankg {
+        font-size: 12px;
+        padding: 8px 27px;
+        line-height: 1;
+        height: auto;
+    }
+    
+    .poker_cards.row, .poker_dimeBtn .row {
+        margin: 0 -3px 20px -3px;
+    }
+    
+    .poker_cards.row> div, .poker_dimeBtn .row> div {
+        padding: 0 3px;
+    }
+    
+    .poker_Spin_btns.dualBtn> * {
+        min-width: unset;
+    }
+    
+    .poker_Spin_btns.dualBtn {
+        margin: 13px auto 0 auto;
+    }
+    
+    button.BlueBtn.SpinBtn {
+        font-size: 18px;
+        line-height: 21px;
+        width: 50%;
+    }
+
+    .ShakeDishCardRow.gameCardList.row {
+        margin-left: -5px;
+        margin-right: -5px;
+        padding: 10px 0px 10px 0px;
+    }
+    
+    .ShakeDishCardRow.row>div {
+        padding-right: 5px;
+        padding-left: 5px;
+    }
+    
+    .cardNumber {
+        font-size: 10px;
+        line-height: 1.3;
+        border-radius: 0px 0px 5px 5px;
+    }
+    
+    .gameCardItem.shakeDishCard>h3 {
+        font-size: 13.2829px;
+        line-height: 15px;
+    }
+    
+    .cardDott {
+        width: 9px;
+        height: 9px;
+    }
+    
+    ul.cardDotList {
+        max-width: 68px;
+    }
+    
+    .lineOr {
+        margin: 9px auto;
+    }
+    
+    .lineOr span {
+        font-size: 10.0263px;
+        line-height: 8px;
+    }
+    
+    .cardDotted {
+        min-height: 52px;
+    }
+    
+    .verticalDotList {
+        border-radius: 7px;
+    }
+
+    .graphBox ul.beatColorLst.row {
+        top: -10px;
+        padding: 0 5px;
+    }
+    
+    .colorBeatItem {
+        font-size: 11px;
+        border-radius: 4px;
+    }
+    
+    li.colorCol.col-2 {
+        padding: 2.5px;
+    }
+    
+    .CrashColorGame .graphBox .game_Counter {
+        width: 100%;
+    }
+    
+    .color_box {
+        font-size: 10px;
+    }
+    
+    .color_box_col span.color-orange {
+        font-size: 9px;
+    }
+    
+    .color_box>span {
+        height: 8px;
+        width: 8px;
+    }
+    
+    .beatColorBox.row {
+        padding: 13px 0px 13px 12px;
+        margin: 0 -5px;
+    }
+    
+    .beatColorBox.row .col {
+        padding-left: 0;
+        margin-right: 0;
+    }
+
 }
 
 /* (max-width: 520px) */

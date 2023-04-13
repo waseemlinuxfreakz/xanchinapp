@@ -1,10 +1,12 @@
 import React from 'react';
 import GameCardHeader from '../headerfooter/GameCardHeader';
-import StartCard from './PlayCardComponents/StartCard';
-import CardSelectBox from './PlayCardComponents/CardSelectBox';
+import CoinFlipBox from './PlayCardComponents/CoinFlipBox';
+import GameOver from './PlayCardComponents/GameOver';
+import CoinFlipStart2 from './PlayCardComponents/CoinFlipStart2';
+import CoinList from './PlayCardComponents/CoinList';
 
 
-function PlayCard() {
+function CoinFlip2() {
     return ( 
         <div className='PageWraper bigSmallWrap PlayCardWraper'>
             <GameCardHeader/>
@@ -12,10 +14,12 @@ function PlayCard() {
                 <div className="container">
                     <div className="row">
                         <div className="col-xl-7">
-                            <CardSelectBox/>
+                            <CoinList/>
+                            <CoinFlipBox/>
+                            <GameOver/>
                         </div>
                         <div className="col-xl-5">
-                            <StartCard/>
+                            <CoinFlipStart2/>
                         </div>
                     </div>
                 </div>
@@ -24,4 +28,4 @@ function PlayCard() {
      );
 }
 
-export default PlayCard;
+export default CoinFlip2;

@@ -6,18 +6,6 @@ import Coin2 from '../../assets/img/coin/coin-2.svg';
 function CoinFlipBox() {
     return ( 
         <div className="coinFlip_area">
-            <div className="coinList">
-                <img src={Coin1} alt="Coin" className='CoinItem' />
-                <img src={Coin2} alt="Coin" className='CoinItem' />
-                <img src={Coin1} alt="Coin" className='CoinItem' />
-                <img src={Coin2} alt="Coin" className='CoinItem inactiveCoin' />
-                <img src={Coin1} alt="Coin" className='CoinItem' />
-                <img src={Coin2} alt="Coin" className='CoinItem' />
-                <img src={Coin1} alt="Coin" className='CoinItem' />
-                <img src={Coin2} alt="Coin" className='CoinItem inactiveCoin' />
-                <img src={Coin1} alt="Coin" className='CoinItem' />
-                <img src={Coin2} alt="Coin" className='CoinItem' />
-            </div>
             <div className="flipBox">
                 <div className="coinFlipCircle">
                     {/* <img src={} alt="" /> */}

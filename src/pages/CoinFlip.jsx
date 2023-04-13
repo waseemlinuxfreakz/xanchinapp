@@ -1,9 +1,7 @@
 import React from 'react';
 import GameCardHeader from '../headerfooter/GameCardHeader';
-import StartCard from './PlayCardComponents/StartCard';
 import CoinFlipBox from './PlayCardComponents/CoinFlipBox';
-import GameOver from './PlayCardComponents/GameOver';
-import ZeroTokken from './PlayCardComponents/ZeroTokken';
+import CoinFlipStart from './PlayCardComponents/CoinFlipStart';
 
 
 function CoinFlip() {
@@ -15,13 +13,9 @@ function CoinFlip() {
                     <div className="row">
                         <div className="col-xl-7">
                             <CoinFlipBox/>
-                            <GameOver/>
                         </div>
                         <div className="col-xl-5">
-                            <StartCard/>
-                            <br />
-                            <br />
-                            <ZeroTokken/>
+                            <CoinFlipStart/>
                         </div>
                     </div>
                 </div>
