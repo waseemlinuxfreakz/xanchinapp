@@ -998,6 +998,12 @@
         justify-content: center;
     }
 
+    .playerCardBoxInner:empty {
+        padding-bottom: 44%;
+        min-height: unset;
+        width: 100%;
+    }
+
 }
 
 /* (max-width: 520px) */

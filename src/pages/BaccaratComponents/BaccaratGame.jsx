@@ -13,7 +13,6 @@ function BaccaratGame() {
                     <div className="playerCardBox">
                         <p>Player</p>
                         <div className="playerCardBoxInner">
-                            <img src="" alt="" />
                         </div>
                     </div>
                 </div>
@@ -26,7 +25,6 @@ function BaccaratGame() {
                     <div className="playerCardBox">
                         <p>Player</p>
                         <div className="playerCardBoxInner">
-                            <img src="" alt="" />
                         </div>
                     </div>
                 </div>
