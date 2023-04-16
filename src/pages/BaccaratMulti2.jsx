@@ -8,7 +8,7 @@ import BaccaratGameStartDeal from './BaccaratComponents/BaccaratGameStartDeal';
 
 function BaccaratMulti2() {
     return ( 
-        <div className='PageWraper bigSmallWrap gameCardWraper'>
+        <div className='BaccaratMulti2Page PageWraper bigSmallWrap gameCardWraper'>
             <BaccaratMultiHeader/>
             <section className="baccarat_area affilate_area">
                 <div className="bigSmallGame_container">

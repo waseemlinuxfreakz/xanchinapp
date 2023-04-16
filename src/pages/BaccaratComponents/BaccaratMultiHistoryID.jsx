@@ -14,7 +14,7 @@ function BaccaratMultiHistoryID() {
     
     return ( 
         <>
-            <span onClick={handleShow} className="history_tab borderBtn">Result History</span>
+            <span onClick={handleShow} className="history_tab borderBtn BaccaratMultiHistoryID">Result History</span>
 
             <Modal className='historyModal' show={show} onHide={handleClose}>
                 <div className='modal_header'>

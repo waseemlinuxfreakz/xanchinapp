@@ -3468,3 +3468,9 @@ button.RedBtn.dealBtn {
 .beatStartBottom .flexBox {
   flex-grow: 1;
 }
+
+.BaccaratMultiSinglePage .BaccaratMultiHistory,
+.BaccaratMulti2Page .BaccaratMultiHistoryID, 
+.BaccaratMultiPage .BaccaratMultiHistoryID {
+  display: none;
+}
