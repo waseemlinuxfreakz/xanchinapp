@@ -27,6 +27,10 @@ import ShakeDish from "./pages/ShakeDish";
 import Crash from "./pages/Crash";
 import Crash2 from "./pages/Crash2";
 import Crash3 from "./pages/Crash3";
+import Crash4 from "./pages/Crash4";
+import BaccaratMulti from "./pages/BaccaratMulti";
+import BaccaratMulti2 from "./pages/BaccaratMulti2";
+import BaccaratMultiSingle from "./pages/BaccaratMultiSingle";
 
 
 function App() {
@@ -49,6 +53,10 @@ function App() {
             <Route path="/crash" element={<Crash />} />
             <Route path="/Crash2" element={<Crash2 />} />
             <Route path="/Crash3" element={<Crash3 />} />
+            <Route path="/Crash4" element={<Crash4 />} />
+            <Route path="/baccarat-multi" element={<BaccaratMulti />} />
+            <Route path="/baccarat-single" element={<BaccaratMultiSingle />} />
+            <Route path="/baccarat-multi2" element={<BaccaratMulti2 />} />
             
             <Route path="/bankroll" element={<Bankroll />} />
             <Route path="/play-card" element={<PlayCard />} />

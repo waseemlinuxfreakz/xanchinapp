@@ -639,7 +639,7 @@ span.hrLine {
   text-decoration: none;
   min-width: 155px;
   text-align: center;
-  padding: 6px;
+  padding: 5px 15px;
   border: 1px solid transparent;
   transition: .3s ease all;
 }
@@ -1473,11 +1473,10 @@ table.table tr {
   font-weight: 400;
   font-size: 16.5198px;
   line-height: 28px;
-  /* identical to box height */
   color: #7AA0E9;
 }
 
-.gameWill p {
+.gameCounter p {
   margin: 0;
 }
 
@@ -3237,4 +3236,235 @@ li.colorCol {
 .colorBlue {
   background: rgba(39, 78, 156, 0.2);
   color: #497EE9;
+}
+
+.carshWin {
+  position: absolute;
+  z-index: 11;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  font-weight: 400;
+  font-size: 29.8374px;
+  line-height: 50px;
+  text-align: center;
+  color: #FFA800;
+}
+
+ul.beatColorLst.row+.graphBox {
+  margin-top: 9px;
+}
+
+.baccarat_area.affilate_area {
+  padding-top: 30px;
+}
+
+.BaccaratGame_box {
+  background: linear-gradient(180deg, #0E1D3A 0%, #0E1D3A 100%);
+  border: 0.991186px solid #3B5585;
+  border-radius: 10px;
+  position: relative;
+  z-index: 1;
+  padding: 17px;
+}
+
+.playerCardBox {
+  text-align: center;
+  font-weight: 400;
+  font-size: 14.5087px;
+  line-height: 25px;
+}
+
+.playerCardBoxInner {
+  border: 1.01007px dashed #7AA0E9;
+  border-radius: 7.57553px;
+  min-height: 84px;
+  padding: 3px;
+  display: inline-flex;
+  min-width: 64px;
+}
+
+.playerCardBoxInner img {
+  display: block;
+  width: 33.33333%;
+  padding: 2px;
+}
+
+.gameCounterCircle {
+  text-align: center;
+  height: 180px;
+  position: relative;
+  z-index: 1;
+  padding-top: 55px;
+}
+
+.gameCounterCircle .gameCounter {
+  display: inline-block;
+}
+
+.gameCounterCircle h2 {
+  font-weight: 400;
+  font-size: 66.7746px;
+  line-height: 1.1;
+}
+
+.gameCounterCircle p {
+  font-weight: 400;
+  font-size: 16.5198px;
+  line-height: 1.2;
+  color: #7AA0E9;
+}
+
+.gameCounterCircle:after {
+  z-index: -1;
+  content: "";
+  display: block;
+  padding-bottom: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  background: linear-gradient(180deg, rgba(32, 54, 96, 0.35) -0.57%, rgba(19, 37, 71, 0) 39.18%, rgba(19, 37, 71, 0) 40.79%);
+  border-radius: 50%;
+}
+
+span.gameCounterCircleArt:before {
+  content: "";
+  background: linear-gradient(180deg, #203660 -0.57%, rgba(19, 37, 71, 0) 39.18%, rgba(19, 37, 71, 0) 40.79%);
+  display: block;
+  position: absolute;
+  left: 0;
+  width: 100%;
+  padding-bottom: 100%;
+  border-radius: 50%;
+}
+
+span.gameCounterCircleArt {
+  position: absolute;
+  left: 15%;
+  top: 15%;
+  width: 70%;
+  display: block;
+}
+
+.BaccaratGameTop.row {
+  padding-top: 30px;
+}
+
+.BaccaratBlock {
+  position: relative;
+  z-index: 1;
+  background: #14274A;
+  border-radius: 10px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  min-height: 140px;
+  padding: 25px 15px 0px 15px;
+}
+
+img.bg_art {
+  position: absolute;
+  z-index: -1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.BaccaratBlock.BaccaratBlockTop {
+  background: transparent;
+  margin-bottom: 7px;
+  margin-top: -14px;
+  min-height: 160px;
+}
+
+.BaccaratBlock.BaccaratBlockLeft {
+  height: 100%;
+  background: transparent;
+}
+
+.BaccaratBlock.BaccaratBlockRight {
+  height: 100%;
+  background: transparent;
+}
+
+.BaccaratBlockTitle {
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 14px 0;
+}
+
+.baccaratPlayerBanker .row {
+  margin: 0 -4px;
+}
+
+.baccaratPlayerBanker .row>div {
+  padding: 0 4px;
+}
+
+.BaccaratBlockBottom {
+  display: table;
+  margin: 0 auto;
+  background: #1A2E53;
+  font-weight: 400;
+  font-size: 13.2611px;
+  line-height: 22px;
+  min-width: 109px;
+  text-align: center;
+  padding: 5px;
+  border-radius: 5px 5px 0px 0px;
+}
+
+.BaccaratBlockTitle h2 {
+  font-weight: 400;
+  font-size: 23.2068px;
+  line-height: 1;
+  margin: 0;
+}
+
+.BaccaratBlockTitle span.color-orange {
+  font-size: 21px;
+}
+
+button.RedBtn.dealBtn {
+  margin: 0 0 0 10px;
+  width: auto;
+  min-width: unset;
+}
+
+.cardHistorybox img {
+  display: inline-block;
+  padding: 2px;
+  width: 36px;
+}
+
+.BaccaratMultiHistory table tr td {
+  vertical-align: middle;
+}
+
+.historyTable table a {
+  color: #69A5FF;
+  text-decoration: none;
+}
+
+.playerCardBoxInner.imageActive {
+  height: auto;
+  min-height: unset;
+}
+
+.flexBox {
+  display: flex;
+  align-items: center;
+}
+
+.flexBox .inputCol {
+  margin: 0 10px;
+}
+
+.beatStartBottom .flexBox {
+  flex-grow: 1;
 }

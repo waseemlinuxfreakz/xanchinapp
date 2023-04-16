@@ -518,11 +518,63 @@
         width: 20%;
     }
 
+    .playerCardBoxInner img {
+        display: block;
+        width: 33.33333%;
+        padding: 2px;
+    }
+    
+    .baccaratPlayerBanker .col-md-6.col-12 {
+        order: -1;
+    }
+    
+    .BaccaratBlock.BaccaratBlockRight img, .BaccaratBlock.BaccaratBlockLeft img {
+        display: none;
+    }
+    
+    .BaccaratBlock.BaccaratBlockRight, .BaccaratBlock.BaccaratBlockLeft {
+        background: #14274A;
+        margin-top: 7px;
+    }
+
+    .gameCounterCircle {
+        height: 150px;
+    }
+
 }
 
 /* and (max-width: 767px) */
 
 @media only screen and (max-width: 520px) {
+
+    .gameCounterCircle {
+        padding-top: 25px;
+        height: 91px;
+    }
+    
+    .gameCounter h2 {
+        font-size: 20.0896px;
+        line-height: 1;
+    }
+    
+    .gameCounterCircle p {
+        font-size: 7.97008px;
+    }
+    
+    .BaccaratGameTop.row {
+        margin: 0 -3px;
+    }
+    
+    .BaccaratGameTop.row> div {
+        padding: 0 3px;
+    }
+    
+    .playerCardBox p {
+        font-size: 8px;
+        line-height: 1;
+        margin: 0 0 5px 8px;
+        text-align: left;
+    }
 
     .graphBox {
         margin-top: 30px;
@@ -934,6 +986,16 @@
     .beatColorBox.row .col {
         padding-left: 0;
         margin-right: 0;
+    }
+
+    .beatStartBottom .flexBox {
+        width: 100%;
+        margin: 0 0 10px 0;
+    }
+    
+    .beatStartBottom.BaccaratGameStart {
+        flex-wrap: wrap;
+        justify-content: center;
     }
 
 }

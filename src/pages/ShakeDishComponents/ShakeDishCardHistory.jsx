@@ -2,9 +2,6 @@ import React, { useState } from 'react';
 import Button from 'react-bootstrap/Button';
 import Modal from 'react-bootstrap/Modal';
 import Close from '../../assets/img/icons/close.svg';
-import Result1 from '../../assets/img/card/result-1.png';
-import Result2 from '../../assets/img/card/result-2.png';
-import Result3 from '../../assets/img/card/result-3.png';
 
 
 function ShakeDishCardHistory() {
@@ -35,85 +32,85 @@ function ShakeDishCardHistory() {
                                 <tr>
                                     <td><a href="#" className='color-blue'># 23265323</a></td>
                                     <td>
-                                        <div class="dottedList"><div class="dottedItem"><span></span></div><div class="dottedItem"><span></span></div><div class="dottedItem blackDotted"><span></span></div><div class="dottedItem blackDotted"><span></span></div></div>
+                                        <div className="dottedList"><div className="dottedItem"><span></span></div><div className="dottedItem"><span></span></div><div className="dottedItem blackDotted"><span></span></div><div className="dottedItem blackDotted"><span></span></div></div>
                                     </td>
                                 </tr>
                                 <tr>
                                     <td><a href="#" className='color-blue'># 23265323</a></td>
                                     <td>
-                                        <div class="dottedList"><div class="dottedItem"><span></span></div><div class="dottedItem"><span></span></div><div class="dottedItem blackDotted"><span></span></div><div class="dottedItem blackDotted"><span></span></div></div>
+                                        <div className="dottedList"><div className="dottedItem"><span></span></div><div className="dottedItem"><span></span></div><div className="dottedItem blackDotted"><span></span></div><div className="dottedItem blackDotted"><span></span></div></div>
                                     </td>
                                 </tr>
                                 <tr>
                                     <td><a href="#" className='color-blue'># 23265323</a></td>
                                     <td>
-                                        <div class="dottedList"><div class="dottedItem"><span></span></div><div class="dottedItem"><span></span></div><div class="dottedItem blackDotted"><span></span></div><div class="dottedItem blackDotted"><span></span></div></div>
+                                        <div className="dottedList"><div className="dottedItem"><span></span></div><div className="dottedItem"><span></span></div><div className="dottedItem blackDotted"><span></span></div><div className="dottedItem blackDotted"><span></span></div></div>
                                     </td>
                                 </tr>
                                 <tr>
                                     <td><a href="#" className='color-blue'># 23265323</a></td>
                                     <td>
-                                        <div class="dottedList"><div class="dottedItem"><span></span></div><div class="dottedItem"><span></span></div><div class="dottedItem blackDotted"><span></span></div><div class="dottedItem blackDotted"><span></span></div></div>
+                                        <div className="dottedList"><div className="dottedItem"><span></span></div><div className="dottedItem"><span></span></div><div className="dottedItem blackDotted"><span></span></div><div className="dottedItem blackDotted"><span></span></div></div>
                                     </td>
                                 </tr>
                                 <tr>
                                     <td><a href="#" className='color-blue'># 23265323</a></td>
                                     <td>
-                                        <div class="dottedList"><div class="dottedItem"><span></span></div><div class="dottedItem"><span></span></div><div class="dottedItem blackDotted"><span></span></div><div class="dottedItem blackDotted"><span></span></div></div>
+                                        <div className="dottedList"><div className="dottedItem"><span></span></div><div className="dottedItem"><span></span></div><div className="dottedItem blackDotted"><span></span></div><div className="dottedItem blackDotted"><span></span></div></div>
                                     </td>
                                 </tr>
                                 <tr>
                                     <td><a href="#" className='color-blue'># 23265323</a></td>
                                     <td>
-                                        <div class="dottedList"><div class="dottedItem"><span></span></div><div class="dottedItem"><span></span></div><div class="dottedItem blackDotted"><span></span></div><div class="dottedItem blackDotted"><span></span></div></div>
+                                        <div className="dottedList"><div className="dottedItem"><span></span></div><div className="dottedItem"><span></span></div><div className="dottedItem blackDotted"><span></span></div><div className="dottedItem blackDotted"><span></span></div></div>
                                     </td>
                                 </tr>
                                 <tr>
                                     <td><a href="#" className='color-blue'># 23265323</a></td>
                                     <td>
-                                        <div class="dottedList"><div class="dottedItem"><span></span></div><div class="dottedItem"><span></span></div><div class="dottedItem blackDotted"><span></span></div><div class="dottedItem blackDotted"><span></span></div></div>
+                                        <div className="dottedList"><div className="dottedItem"><span></span></div><div className="dottedItem"><span></span></div><div className="dottedItem blackDotted"><span></span></div><div className="dottedItem blackDotted"><span></span></div></div>
                                     </td>
                                 </tr>
                                 <tr>
                                     <td><a href="#" className='color-blue'># 23265323</a></td>
                                     <td>
-                                        <div class="dottedList"><div class="dottedItem"><span></span></div><div class="dottedItem"><span></span></div><div class="dottedItem blackDotted"><span></span></div><div class="dottedItem blackDotted"><span></span></div></div>
+                                        <div className="dottedList"><div className="dottedItem"><span></span></div><div className="dottedItem"><span></span></div><div className="dottedItem blackDotted"><span></span></div><div className="dottedItem blackDotted"><span></span></div></div>
                                     </td>
                                 </tr>
                                 <tr>
                                     <td><a href="#" className='color-blue'># 23265323</a></td>
                                     <td>
-                                        <div class="dottedList"><div class="dottedItem"><span></span></div><div class="dottedItem"><span></span></div><div class="dottedItem blackDotted"><span></span></div><div class="dottedItem blackDotted"><span></span></div></div>
+                                        <div className="dottedList"><div className="dottedItem"><span></span></div><div className="dottedItem"><span></span></div><div className="dottedItem blackDotted"><span></span></div><div className="dottedItem blackDotted"><span></span></div></div>
                                     </td>
                                 </tr>
                                 <tr>
                                     <td><a href="#" className='color-blue'># 23265323</a></td>
                                     <td>
-                                        <div class="dottedList"><div class="dottedItem"><span></span></div><div class="dottedItem"><span></span></div><div class="dottedItem blackDotted"><span></span></div><div class="dottedItem blackDotted"><span></span></div></div>
+                                        <div className="dottedList"><div className="dottedItem"><span></span></div><div className="dottedItem"><span></span></div><div className="dottedItem blackDotted"><span></span></div><div className="dottedItem blackDotted"><span></span></div></div>
                                     </td>
                                 </tr>
                                 <tr>
                                     <td><a href="#" className='color-blue'># 23265323</a></td>
                                     <td>
-                                        <div class="dottedList"><div class="dottedItem"><span></span></div><div class="dottedItem"><span></span></div><div class="dottedItem blackDotted"><span></span></div><div class="dottedItem blackDotted"><span></span></div></div>
+                                        <div className="dottedList"><div className="dottedItem"><span></span></div><div className="dottedItem"><span></span></div><div className="dottedItem blackDotted"><span></span></div><div className="dottedItem blackDotted"><span></span></div></div>
                                     </td>
                                 </tr>
                                 <tr>
                                     <td><a href="#" className='color-blue'># 23265323</a></td>
                                     <td>
-                                        <div class="dottedList"><div class="dottedItem"><span></span></div><div class="dottedItem"><span></span></div><div class="dottedItem blackDotted"><span></span></div><div class="dottedItem blackDotted"><span></span></div></div>
+                                        <div className="dottedList"><div className="dottedItem"><span></span></div><div className="dottedItem"><span></span></div><div className="dottedItem blackDotted"><span></span></div><div className="dottedItem blackDotted"><span></span></div></div>
                                     </td>
                                 </tr>
                                 <tr>
                                     <td><a href="#" className='color-blue'># 23265323</a></td>
                                     <td>
-                                        <div class="dottedList"><div class="dottedItem"><span></span></div><div class="dottedItem"><span></span></div><div class="dottedItem blackDotted"><span></span></div><div class="dottedItem blackDotted"><span></span></div></div>
+                                        <div className="dottedList"><div className="dottedItem"><span></span></div><div className="dottedItem"><span></span></div><div className="dottedItem blackDotted"><span></span></div><div className="dottedItem blackDotted"><span></span></div></div>
                                     </td>
                                 </tr>
                                 <tr>
                                     <td><a href="#" className='color-blue'># 23265323</a></td>
                                     <td>
-                                        <div class="dottedList"><div class="dottedItem"><span></span></div><div class="dottedItem"><span></span></div><div class="dottedItem blackDotted"><span></span></div><div class="dottedItem blackDotted"><span></span></div></div>
+                                        <div className="dottedList"><div className="dottedItem"><span></span></div><div className="dottedItem"><span></span></div><div className="dottedItem blackDotted"><span></span></div><div className="dottedItem blackDotted"><span></span></div></div>
                                     </td>
                                 </tr>
                             </tbody>
