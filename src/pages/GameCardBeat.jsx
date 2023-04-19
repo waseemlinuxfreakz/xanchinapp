@@ -23,7 +23,9 @@ function GameCardBeat() {
                             <div className="beatingGroundRow row">
                                 <div className="beatingGround">
                                     <BeatingGround/>
-                                    <BeatStart/>
+                                    <span className='GroundCrabStart'>
+                                        <BeatStart/>
+                                    </span>
                                 </div>
                                 <div className="gameStartWill">
                                     <GameCardStartWill/>

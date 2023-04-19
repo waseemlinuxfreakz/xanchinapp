@@ -1663,8 +1663,6 @@ a.walletLink.grayBtn span img {
   margin-right: 15px;
 }
 
-.beatingGroundRow.row {}
-
 .gameStartWill {
   width: 154px;
 }
@@ -1697,6 +1695,12 @@ a.walletLink.grayBtn span img {
   background: #132547;
   border-radius: 10px;
   padding-top: 15px;
+  transition: .3s ease all;
+  cursor: pointer;
+}
+
+.gameCardItemImg:hover {
+  background-color: #2C4675;
 }
 
 .gameCardItemImg img {
@@ -2698,6 +2702,7 @@ ul.rewardList li:last-child {
   background-size: contain;
   background-position: center;
   max-width: 852px;
+  background-repeat: no-repeat;
 }
 
 
@@ -2718,12 +2723,13 @@ button.BlueBtn.SpinBtn {
 
 .PageWraper.dailySpinWraper {
   height: calc(100vh - 62px);
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 
 section.dailySpin_area {
   padding-top: 50px;
   padding-bottom: 30px;
+  overflow: auto;
 }
 
 .dottedList {
@@ -3473,4 +3479,18 @@ button.RedBtn.dealBtn {
 .BaccaratMulti2Page .BaccaratMultiHistoryID, 
 .BaccaratMultiPage .BaccaratMultiHistoryID {
   display: none;
+}
+
+div#wheel canvas#canvas {
+  width: 167%;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+div#wheel {
+  position: relative;
+  z-index: 1;
+  padding-bottom: 113%;
+  overflow: hidden;
 }

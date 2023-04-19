@@ -1,6 +1,7 @@
 import React from 'react';
 import Spin from '../assets/img/spin.svg';
 import GameCardHeader from '../headerfooter/GameCardHeader';
+import DailySpinLibrary from './DailySpinComponents/DailySpinLibrary';
 
 function DailySpin() {
     return ( 
@@ -13,7 +14,8 @@ function DailySpin() {
                         <div className="dailySpin">
                             <h2>You can spin only once in a day</h2>
                             <div className="theSpin">
-                                <img src={Spin} alt="" />
+                                {/* <img src={Spin} alt="" /> */}
+                                <DailySpinLibrary/>
                             </div>
                             <button type='button' className='BlueBtn SpinBtn'>Spin</button>
                         </div>
